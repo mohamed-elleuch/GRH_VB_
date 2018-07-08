@@ -1,0 +1,180 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GRH
+</name>
+</assembly>
+<members>
+<member name="T:GRH.GestionRHDataSet.العطلةDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GRH.GestionRHDataSet.العطلةRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GRH.GestionRHDataSet.العطلةRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GRH.GestionRHDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GRH.GestionRHDataSetTableAdapters.العطلةTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GRH.GestionRHDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(GRH.GestionRHDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GRH.GestionRHDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(GRH.GestionRHDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GRH.GestionRHDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(GRH.GestionRHDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GRH.GestionRHDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GRH.GestionRHDataSetTableAdapters.TableAdapterManager.UpdateAll(GRH.GestionRHDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GRH.GestionRHDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GRH.GestionRHDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GRH.GestionRHDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:GRH.DataSet2.العطلةDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GRH.DataSet2.العطلةRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GRH.DataSet2.العطلةRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GRH.DataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GRH.DataSet2TableAdapters.العطلةTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GRH.DataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(GRH.DataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GRH.DataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(GRH.DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GRH.DataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(GRH.DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GRH.DataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GRH.DataSet2TableAdapters.TableAdapterManager.UpdateAll(GRH.DataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GRH.DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GRH.DataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GRH.DataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:GRH.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:GRH.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:GRH.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:GRH.DataSet1.الموظفDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:GRH.DataSet1.الموظفRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:GRH.DataSet1.الموظفRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:GRH.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:GRH.DataSet1TableAdapters.الموظفTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:GRH.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(GRH.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:GRH.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(GRH.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:GRH.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(GRH.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:GRH.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:GRH.DataSet1TableAdapters.TableAdapterManager.UpdateAll(GRH.DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:GRH.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:GRH.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:GRH.DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
